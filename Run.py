@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 27 01:28:34 2022
-
-@author: LJF
-"""
 from keras.preprocessing.image import ImageDataGenerator
 from Nets import googlenet, RMFF_CNN
 import matplotlib.pyplot as plt
