@@ -15,13 +15,13 @@ The data set is a part of the CWRU Bearing Data: https://engineering.case.edu/be
 All of the data was recorded for motor loads of 0 horsepower, and the motor speeds are 1797 to 1720 RPM.  
 There are 7 types vibration signals of the fan end accelerometer (FE) used for this case:  
 ##
-the normal viberation signal<center>(normal.mat)</center>   
-the inner raceway fault with the 0.1778mm diameter<center>(inner_1.mat)</center>   
-the inner raceway fault with the 0.3556mm diameter<center>(inner_2.mat)</center>  
-the outer raceway fault with the 0.1778mm diameter<center>(outer_1.mat)</center>  
-the outer raceway fault with the 0.3556mm diameter<center>(outer_2.mat)</center>  
-the rolling element fault with the 0.1778mm diameter<center>(ball_1.mat)</center>  
-the rolling element fault with the 0.3556mm diameter<center>(ball_2.mat)</center>  
+(normal.mat)  the normal viberation signal 
+(inner_1.mat) the inner raceway fault with the 0.1778mm diameter 
+(inner_2.mat) the inner raceway fault with the 0.3556mm diameter 
+(outer_1.mat) the outer raceway fault with the 0.1778mm diameter 
+(outer_2.mat) the outer raceway fault with the 0.3556mm diameter 
+(ball_1.mat)  the rolling element fault with the 0.1778mm diameter 
+(ball_2.mat)  the rolling element fault with the 0.3556mm diameter 
 ##  
 
 ### CreatePngDatasets.py  
