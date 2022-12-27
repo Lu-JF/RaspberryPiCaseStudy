@@ -1,6 +1,6 @@
 # RaspberryPiCaseStudy
 The case study of the intenlligent edge computing system based on RaspberryPi and googLeNet
-### the environment
+### The environment
 the case ideally requires:
 Python>=3.8
 keras>=2.6.0
@@ -12,18 +12,17 @@ matplotlib>=3.3.4
 
 ### The data set
 The data set is a part of the CWRU Bearing Data: https://engineering.case.edu/bearingdatacenter/download-data-file
+All of the data was recorded for motor loads of 0 horsepower, and the motor speeds are 1797 to 1720 RPM.
 There are 7 types vibration signals of the fan end accelerometer (FE) used for this case:
 ##
 the normal viberation signal				(normal)
-the inner raceway fault with the 0.1778mm diameter 	(inner_1)
-the inner raceway fault with the 0.3556mm diameter	(inner_2)
-the outer raceway fault with the 0.1778mm diameter 	(outer_1)
-the outer raceway fault with the 0.3556mm diameter 	(outer_2)
-the rolling element fault with the 0.1778mm diameter 	(ball_1)
-the rolling element fault with the 0.3556mm diameter 	(ball_2)
+the inner raceway fault with the 0.1778mm diameter 	(inner_1)  
+the inner raceway fault with the 0.3556mm diameter	(inner_2)  
+the outer raceway fault with the 0.1778mm diameter 	(outer_1)  
+the outer raceway fault with the 0.3556mm diameter 	(outer_2)  
+the rolling element fault with the 0.1778mm diameter 	(ball_1)  
+the rolling element fault with the 0.3556mm diameter 	(ball_2)  
 ##
-All of the data was recorded for motor loads of 0 horsepower, and the motor speeds are 1797 to 1720 RPM.
-
 ### CreatePngDatasets.py
 The code can transform the raw mat file to the preprocessing png file.
 The method extracts kurtosis of the signal split as the gray value of the image by the interval step.
