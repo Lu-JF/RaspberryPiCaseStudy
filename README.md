@@ -1,7 +1,7 @@
 # RaspberryPiCaseStudy
 The case study of the intenlligent edge computing system based on RaspberryPi and googLeNet
 ### The environment
-the case ideally requires:
+the case ideally requires:  
 Python>=3.8  
 keras>=2.6.0  
 scipy>=1.6.2  
