@@ -110,7 +110,7 @@ if __name__=='__main__':
     plt.figure()
     plt.plot(np.arange(0, EPOCH), train_H, linestyle='-', label="train_acc")
     plt.plot(np.arange(0, EPOCH), val_H, linestyle='dotted', label="valid_acc")
-    plt.xlabel('Trial Number')
+    plt.xlabel('Epoch')
     plt.ylabel("Accuracy")
     plt.legend(loc="best")
     # plt.savefig("plot.png")
