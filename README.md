@@ -38,7 +38,7 @@ matrix according to the test results.
 
 ### Run_on_RaspberryPi.py
 The 'model.h5' must be existed before you execute the 'Run_on_RaspberryPi.py' for deploying the model on a  
-RaspberryPi, which can be gotten from Run.py. The code gives an example of how to bulid the intelligent edge  
+RaspberryPi, which can be gotten from 'Run.py'. The code gives an example of how to bulid the intelligent edge  
 computing system based on the deeplearning. It can run with the two different mode for recognizing the fault  
 png on the RaspberryPi. The one is 'Auto', which is scanning the specified path every 2 seconds and ouput the  
 results. The other one is 'Manual', which is triggered scanning by the input command and output the results.   
