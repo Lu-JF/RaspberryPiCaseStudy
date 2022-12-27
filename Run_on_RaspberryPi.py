@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May  2 15:25:37 2022
-
-@author: LJF
-"""
 import numpy as np
 from keras.preprocessing.image import load_img, img_to_array
 from keras.models import load_model
@@ -84,7 +78,6 @@ def ifdetail_set():
     ifskip=False
     ifdetail=False
     while(not ifskip):
-        #接受输入
         command = input('Show detail? (Y)Yse  (N)No :')
         if command=='Y':
             ifdetail=True
@@ -147,8 +140,3 @@ def run():
 
 if __name__=='__main__':
     run()
-
-
-
-
-
