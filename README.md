@@ -29,7 +29,8 @@ The code can transform the raw mat file to the preprocessing png file.
 The method extracts kurtosis of the signal split as the gray value of the image by the interval step.  
 
 ### Nets.py
-The code includes the component of the model and the buliding method.
+The code includes the component of the model and the buliding method.  
+Optional models: RMFFCNN, googLeNet.
 
 ### Run.py  
 The code will train and test the googLeNet automatically if you have used the 'CreatePngDatasets.py' to bulid 
