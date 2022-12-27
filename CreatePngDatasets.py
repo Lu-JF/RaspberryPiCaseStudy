@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Dec 26 22:40:37 2022
-
-@author: LJF
-"""
 from numpy import transpose, zeros, mean, std, uint8
 import os
 import scipy.io as sio
