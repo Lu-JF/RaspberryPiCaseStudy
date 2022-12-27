@@ -1,7 +1,7 @@
 # RaspberryPiCaseStudy
 The case study of the intenlligent edge computing system based on RaspberryPi and googLeNet
 ### The environment
-the case ideally requires:  
+The case ideally requires:  
 Python>=3.8  
 keras>=2.6.0  
 scipy>=1.6.2  
@@ -15,11 +15,11 @@ The data set is a part of the CWRU Bearing Data: https://engineering.case.edu/be
 All of the data was recorded for motor loads of 0 horsepower, and the motor speeds are 1797 to 1720 RPM.  
 There are 7 types vibration signals of the fan end accelerometer (FE) used for this case:  
 ##
-the normal viberation signal				(normal)
-the inner raceway fault with the 0.1778mm diameter 	(inner_1)  
-the inner raceway fault with the 0.3556mm diameter	(inner_2)  
-the outer raceway fault with the 0.1778mm diameter 	(outer_1)  
-the outer raceway fault with the 0.3556mm diameter 	(outer_2)  
+the normal viberation signal				                  (normal)
+the inner raceway fault with the 0.1778mm diameter 	  (inner_1)  
+the inner raceway fault with the 0.3556mm diameter	  (inner_2)  
+the outer raceway fault with the 0.1778mm diameter 	  (outer_1)  
+the outer raceway fault with the 0.3556mm diameter 	  (outer_2)  
 the rolling element fault with the 0.1778mm diameter 	(ball_1)  
 the rolling element fault with the 0.3556mm diameter 	(ball_2)  
 ##  
@@ -32,12 +32,12 @@ The method extracts kurtosis of the signal split as the gray value of the image 
 The code includes the component of the googLeNet and the buliding method.
 
 ### Run.py  
-The code will train and test the googLeNet automatically if you have used the CreatePngDatasets.py to bulid 
+The code will train and test the googLeNet automatically if you have used the 'CreatePngDatasets.py' to bulid 
 the png data sets. Then, it can display the accuracy change with the increasing epoch and draw the confusion 
 matrix according to the test results.
 
 ### Run_on_RaspberryPi.py
-The model.h5 must be existed before you execute the Run_on_RaspberryPi.py for deploying the model on a   
+The 'model.h5' must be existed before you execute the 'Run_on_RaspberryPi.py' for deploying the model on a   
 RaspberryPi, which can be gotten from Run.py. The code gives an example of how to bulid the intelligent edge   
 computing system based on the googLeNet. It can run with the two different mode for recognizing the fault png  
 on the RaspberryPi. The one is 'Auto', which is scanning the specified path every 2 seconds and ouput the results.  
