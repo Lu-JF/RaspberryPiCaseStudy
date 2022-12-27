@@ -1,5 +1,5 @@
 # RaspberryPiCaseStudy
-The case study of the intenlligent edge computing system based on RaspberryPi and googLeNet
+The case study of the intenlligent edge computing system based on RaspberryPi and deep learning
 ### The environment
 The case ideally requires:  
 Python>=3.8  
@@ -29,7 +29,7 @@ The code can transform the raw mat file to the preprocessing png file.
 The method extracts kurtosis of the signal split as the gray value of the image by the interval step.  
 
 ### Nets.py
-The code includes the component of the googLeNet and the buliding method.
+The code includes the component of the model and the buliding method.
 
 ### Run.py  
 The code will train and test the googLeNet automatically if you have used the 'CreatePngDatasets.py' to bulid 
@@ -39,7 +39,8 @@ matrix according to the test results.
 ### Run_on_RaspberryPi.py
 The 'model.h5' must be existed before you execute the 'Run_on_RaspberryPi.py' for deploying the model on a   
 RaspberryPi, which can be gotten from Run.py. The code gives an example of how to bulid the intelligent edge   
-computing system based on the googLeNet. It can run with the two different mode for recognizing the fault png  
-on the RaspberryPi. The one is 'Auto', which is scanning the specified path every 2 seconds and ouput the results.  
-The other one is 'Manual', which is triggered scanning by the input command and output the results. Besides, you  
-can output the probability for each type or just output the classification results by the display config.  
+computing system based on the deeplearning. It can run with the two different mode for recognizing the fault 
+png on the RaspberryPi. The one is 'Auto', which is scanning the specified path every 2 seconds and ouput the 
+results. The other one is 'Manual', which is triggered scanning by the input command and output the results. 
+Besides, you can output the probability for each type or just output the classification results by the display 
+config.  
