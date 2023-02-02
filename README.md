@@ -38,16 +38,10 @@ The code includes the component of the model and the buliding method.
 Optional models: RMFFCNN, googLeNet.
 
 ### Run.py  
-The code will train and test the googLeNet automatically if you have used the 'CreatePngDatasets.py' to bulid 
-the png data sets. Then, it can display the accuracy change with the increasing epoch and draw the confusion 
-matrix according to the test results.
+The code will train and test the googLeNet automatically if you have used the 'CreatePngDatasets.py' to bulid the png data sets. Then, it can display the accuracy change with the increasing epoch and draw the confusion matrix according to the test results.
 
 ### Run_on_RaspberryPi.py
-The 'model.h5' must be existed before you execute the 'Run_on_RaspberryPi.py' for deploying the model on a  
-RaspberryPi, which can be gotten from 'Run.py'.  
+The 'model.h5' must be existed before you execute the 'Run_on_RaspberryPi.py' for deploying the model on a RaspberryPi, which can be gotten from 'Run.py'.  
 The code gives an example of how to bulid the intelligent edge computing system based on the deep learning.  
 
-It can run with the two different mode for recognizing the fault png on the RaspberryPi. The one is 'Auto',  
-which is scanning the specified path every 2 seconds and ouput the results. The other one is 'Manual', which  
-is triggered scanning by the input command and output the results. Besides, you can output the probability  
-for each type or just output the classification results by the display config. 
+It can run with the two different mode for recognizing the fault png on the RaspberryPi. The one is 'Auto', which is scanning the specified path every 2 seconds and ouput the results. The other one is 'Manual', which is triggered scanning by the input command and output the results. Besides, you can output the probability for each type or just output the classification results by the display config. 
