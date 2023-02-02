@@ -1,4 +1,4 @@
-# RaspberryPiCaseStudy
+## RaspberryPiCaseStudy
 The case study of the intenlligent edge computing system based on RaspberryPi and deep learning
 
 ### Citation
