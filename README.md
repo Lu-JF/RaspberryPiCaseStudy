@@ -1,7 +1,7 @@
 ## RaspberryPiCaseStudy
 The case study of the intenlligent edge computing system based on RaspberryPi and deep learning
 
-### Citation
+## Citation
 If the code is used in your research, please cite the article as shown below:
 Siliang Lu, Jingfeng Lu, Kang An, Xiaoxian Wang, Qingbo He, Edge Computing on IoT for Machine Signal Processing and Fault Diagnosis: A Review, IEEE Internet of Things Journal, 2023, DOI: 10.1109/JIOT.2023.3239944.
 
@@ -19,7 +19,6 @@ matplotlib>=3.3.4
 The data set is a part of the CWRU Bearing Data: https://engineering.case.edu/bearingdatacenter/download-data-file  
 All of the data was recorded for motor loads of 0 horsepower, and the motor speeds are 1797 to 1720 RPM.  
 There are 7 types vibration signals of the fan end accelerometer (FE) used for this case:  
-##
 (normal.mat)  the normal viberation signal  
 (inner_1.mat) the inner raceway fault with the 0.1778mm diameter  
 (inner_2.mat) the inner raceway fault with the 0.3556mm diameter  
@@ -27,7 +26,6 @@ There are 7 types vibration signals of the fan end accelerometer (FE) used for t
 (outer_2.mat) the outer raceway fault with the 0.3556mm diameter  
 (ball_1.mat)  the rolling element fault with the 0.1778mm diameter  
 (ball_2.mat)  the rolling element fault with the 0.3556mm diameter  
-##  
 
 ### CreatePngDatasets.py  
 The code can transform the raw mat file to the preprocessing png file.  
